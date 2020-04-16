@@ -14,7 +14,6 @@
     \node [output, right of=controller] (output) {};
     \node [block, below of=controller] (measurements) {H(s) = 1};
 
-    % Once the nodes are placed, connecting them is easy. 
     \draw [draw,->] (input) -- node {$R(s)\  +$} (sum);
     \draw [->] (sum) -- node {$E(s)$} (controller);
     \draw [->] (controller) -- node [name=y] {$Y(s)$}(output);
