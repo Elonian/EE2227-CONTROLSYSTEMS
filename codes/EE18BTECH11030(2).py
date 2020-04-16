@@ -1,7 +1,7 @@
  
 ###################################################################
 
-# This a python code for verifying system using routh array.    
+# This a python code for verifying type of system using routh array.    
 # By Moparthi Varun Sankar
 # April 17 , 2020 
 # Released under GNU GPL
