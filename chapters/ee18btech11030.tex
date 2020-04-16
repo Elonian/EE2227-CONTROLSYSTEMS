@@ -45,7 +45,7 @@ E(s) = R(S) - H(s)Y(s)
  G(S) = \frac{Y(s)}{R(s) - H(s)Y(s)}
 \end{align}
 \begin{align}
- Gm(S) = \frac{Y(S)}{R(s)} = \frac{G(s)}{1 + H(s)G(s)}\label{sys_res}
+ G_{m}(S) = \frac{Y(S)}{R(s)} = \frac{G(s)}{1 + H(s)G(s)}\label{sys_res}
 \end{align}
 
 
@@ -95,15 +95,15 @@ This show that at k = 3/4, system oscillates at frequency 2 rad/s.
 \solution
 From equation (\ref{sys_res})
 \begin{align}
- Gm(S) = \frac{2(s+1)}{s^3+\frac{3}{4}s^2+4s+3} 
+ G_{m}(S) = \frac{2(s+1)}{s^3+\frac{3}{4}s^2+4s+3} 
 \end{align}
 Partial Fractions
 \begin{align}
- Gm(S) = \frac{8}{73(s+\frac{3}{4})}+ \frac{-8s+152}{73(s^2+4)}
+ G_{m}(S) = \frac{8}{73(s+\frac{3}{4})}+ \frac{-8s+152}{73(s^2+4)}
 \end{align}
 Apply inverse Laplace transform
 \begin{align}
- gm(t) = \frac{8}{73}e^{\frac{-3t}{4}}u(t)+ (\frac{-8}{73})\sin(2t) +(\frac{-152}{73})\cos(2t)
+ g_{m}(t) = \frac{8}{73}e^{\frac{-3t}{4}}u(t)+ (\frac{-8}{73})\sin(2t) +(\frac{-152}{73})\cos(2t)
 \end{align}
 
 
