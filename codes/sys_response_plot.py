@@ -1,3 +1,11 @@
+###################################################################
+
+# This a python code for System response Gm(t) vs t  
+# By Moparthi Varun Sankar
+# April 17 , 2020 
+# Released under GNU GPL
+
+###################################################################
 import matplotlib.pyplot as plt
 import numpy as np
 import math
